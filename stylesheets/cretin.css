@@ -1,6 +1,6 @@
 @charset "Shift_JIS";
 
-/*--ëbody
+/*--ÔøΩbody
 ------------------------------------------------------------------------------------*/
 body{
     margin: 0;
@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
 	color: #330000;
 	font-size: 90%;
 	line-height: 1.5;
-	background-image: url(/images/cretin/bg.gif);
+	background-image: url(images/cretin/bg.gif);
 	background-repeat: repeat-y;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -62,19 +62,19 @@ a:hover {
 	text-decoration: none;
 }
 
-/*--Éheader
+/*--ÔøΩheader
 ------------------------------------------------------------------------------------*/
 #header{
     width:900px;
 	margin: 0;
 	padding: 0;
 	height: 75px;
-	background-image:url(/images/common/header_bg.gif);
+	background-image:url(images/common/header_bg.gif);
 	background-repeat: no-repeat;
 	border-bottom:#FF99CC solid 4px;
 }
 
-/*--Ésidebar
+/*--ÔøΩsidebar
 ------------------------------------------------------------------------------------*/
 #sidebar{
 	float: left;
@@ -106,7 +106,7 @@ a:hover {
 .menu li{
     margin: 0;
 	padding-left: 17px;
-	background:url(/images/cretin/menu_mark.gif) no-repeat 0 50%;
+	background:url(images/cretin/menu_mark.gif) no-repeat 0 50%;
 }
 
 .login{
@@ -126,7 +126,7 @@ a:hover {
 	border: 1px solid #FF99CC;
 }
 
-/*--ÉÅÉmain
+/*--ÔøΩÔøΩÔøΩmain
 ------------------------------------------------------------------------------------*/
 #main{
 	float: right;
@@ -152,7 +152,7 @@ a:hover {
 	padding: 0;
 }
 
-/*--ÉWhat's New
+/*--ÔøΩWhat's New
 ------------------------------------------------------------------------------------*/
 .whatsnew {
     float: left;
@@ -173,7 +173,7 @@ a:hover {
 .whatsnew ul{
     margin-left:15px;
 	padding: 0;
-	list-style:url(/images/common/list_mark.gif);
+	list-style:url(images/common/list_mark.gif);
 }
 
 .whatsnew li{
@@ -181,7 +181,7 @@ a:hover {
 	padding: 0;
 }
 
-/*--Érigntcontent
+/*--ÔøΩrigntcontent
 ------------------------------------------------------------------------------------*/
 #rightcontent{
 	float: right;
@@ -196,11 +196,11 @@ table.kokuban{
     margin: 0;
 	padding: 0;
 	width: 353px;
-	background-image:url(/images/cretin/kokuban_bg.gif);
+	background-image:url(images/cretin/kokuban_bg.gif);
 	background-repeat: repeat-y;
 }
 
-/*--ÉyellowBox
+/*--ÔøΩyellowBox
 ------------------------------------------------------------------------------------*/
 table.yellow{
     margin: 15px 5px;
@@ -220,7 +220,7 @@ table.yellow td{
 	border: #FFCC00 solid 1px;
 }
 
-/*--Çptop
+/*--ÔøΩptop
 ------------------------------------------------------------------------------------*/
 #ptop_top {
 	clear:both;
@@ -231,7 +231,7 @@ table.yellow td{
 	font-size: 90%;
 }
 
-/*--Éfooter
+/*--ÔøΩfooter
 ------------------------------------------------------------------------------------*/
 #footer{
     clear:both;
@@ -239,7 +239,7 @@ table.yellow td{
 	margin: 0;
 	padding: 0;
 	height: 100px;
-    background-image:url(/images/common/footer_bg.gif);
+    background-image:url(images/common/footer_bg.gif);
 	background-repeat: repeat-x;
 	text-align: center;
 	
@@ -400,7 +400,7 @@ ol.alphastile{
 
 
 
-/*--éüÇnext
+/*--ÔøΩÔøΩÔøΩnext
 ------------------------------------------------------------------------------------*/
 #next ul{
     margin-top:20px;
@@ -472,7 +472,7 @@ ol.alphastile{
 	padding-left:15px;
 }
 
-/*--ëprint style
+/*--ÔøΩprint style
 ------------------------------------------------------------------------------------*/
 @media print {
 	#wrapper{
@@ -482,7 +482,7 @@ ol.alphastile{
 	color: #330000;
 	font-size: 90%;
 	line-height: 1.5;
-	background-image: url(/images/cretin/bg.gif);
+	background-image: url(images/cretin/bg.gif);
 	background-repeat: repeat-y;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -494,7 +494,7 @@ ol.alphastile{
 	margin: 0;
 	padding: 0;
 	height: 75px;
-	background-image:url(/images/common/header_bg.gif);
+	background-image:url(images/common/header_bg.gif);
 	background-repeat: no-repeat;
 	border-bottom:#FF99CC solid 4px;
 }
@@ -522,7 +522,7 @@ ol.alphastile{
 	margin: 0;
 	padding: 0;
 	height: 33px;
-    background-image:url(/images/common/footer_bg.gif);
+    background-image:url(images/common/footer_bg.gif);
 	background-repeat: repeat-x;	
 }
 }

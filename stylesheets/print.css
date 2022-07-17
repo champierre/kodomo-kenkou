@@ -1,6 +1,6 @@
 @charset "Shift_JIS";
 
-/*--‘S‘Ì\‘¢
+/*--ï¿½Sï¿½Ì\ï¿½ï¿½
 ------------------------------------------------------------------------------------*/
 body{
     margin: 0;
@@ -52,7 +52,7 @@ img{
 	text-align: left;
 }
 
-/*--ƒŠƒ“ƒN
+/*--ï¿½ï¿½ï¿½ï¿½ï¿½N
 ------------------------------------------------------------------------------------*/
 a:link, a:visited {
 	color: #0000FF;
@@ -64,14 +64,14 @@ a:hover {
 	text-decoration: none;
 }
 
-/*--ƒwƒbƒ_
+/*--ï¿½wï¿½bï¿½_
 ------------------------------------------------------------------------------------*/
 #header{
     width:100%;
 	margin: 0;
 	padding: 0;
 	height: 75px;
-	background-image:url(/images/common/header_bg.gif);
+	background-image:url(images/common/header_bg.gif);
 	background-repeat: no-repeat;
 }
 
@@ -80,13 +80,13 @@ a:hover {
 	 padding: 3px 10px;
 }
 
-/*--ƒTƒCƒhƒo[
+/*--ï¿½Tï¿½Cï¿½hï¿½oï¿½[
 ------------------------------------------------------------------------------------*/
 #sidebar{
 	display: none;
 }
 
-/*--ƒƒCƒ“ƒXƒy[ƒX
+/*--ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½Xï¿½yï¿½[ï¿½X
 ------------------------------------------------------------------------------------*/
 #main{
 	float: right;
@@ -107,7 +107,7 @@ a:hover {
 	padding: 0;
 }
 
-/*--V’…î•ñ
+/*--ï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½
 ------------------------------------------------------------------------------------*/
 .whatsnew {
     margin: 5px;
@@ -125,7 +125,7 @@ a:hover {
 .whatsnew ul{
     margin-left:15px;
 	padding: 0;
-	list-style:url(../images/common/list_mark.gif);
+	list-style:url(..images/common/list_mark.gif);
 }
 
 .whatsnew li{
@@ -133,13 +133,13 @@ a:hover {
 	padding: 0;
 }
 
-/*--‚±‚Ìƒy[ƒW‚Ìƒgƒbƒv‚Ö
+/*--ï¿½ï¿½ï¿½Ìƒyï¿½[ï¿½Wï¿½Ìƒgï¿½bï¿½vï¿½ï¿½
 ------------------------------------------------------------------------------------*/
 #ptop {
     display: none;
 }
 
-/*--ƒtƒbƒ^[
+/*--ï¿½tï¿½bï¿½^ï¿½[
 ------------------------------------------------------------------------------------*/
 #footer{
     clear:both;
@@ -147,7 +147,7 @@ a:hover {
 	margin: 0;
 	padding: 0;
 	height: 33px;
-    background-image:url(/images/common/footer_bg.gif);
+    background-image:url(images/common/footer_bg.gif);
 	background-repeat: repeat-x;
 	
 }
@@ -166,7 +166,7 @@ a:hover {
 	font-size: 90%;
 	}
 
-/*--ƒvƒ‰ƒCƒoƒV[ƒ|ƒŠƒV[‘¼
+/*--ï¿½vï¿½ï¿½ï¿½Cï¿½oï¿½Vï¿½[ï¿½|ï¿½ï¿½ï¿½Vï¿½[ï¿½ï¿½
 ------------------------------------------------------------------------------------*/
 #privacy {
     clear: both;
