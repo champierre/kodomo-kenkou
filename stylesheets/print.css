@@ -1,0 +1,492 @@
+@charset "Shift_JIS";
+
+/*--全体構造
+------------------------------------------------------------------------------------*/
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin-top:0;
+	margin-bottom:0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+   
+#wrapper{
+    margin: 0 auto 0 auto;
+    width: 100%;
+	text-align: left;
+	color: #330000;
+	font-size: 90%;
+	line-height: 1.5;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+img{
+	border: 0;
+}
+
+.tx_wh{
+	color: #FFF;
+}
+
+.tx_red{
+	color: #F00;
+}
+
+.tx_green{
+	color: #390;
+}
+
+#pankuzu {
+    margin: 0 0 8px 0;
+	font-size: 90%;
+	text-align: left;
+}
+
+/*--リンク
+------------------------------------------------------------------------------------*/
+a:link, a:visited {
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+
+/*--ヘッダ
+------------------------------------------------------------------------------------*/
+#header{
+    width:100%;
+	margin: 0;
+	padding: 0;
+	height: 75px;
+	background-image:url(/images/common/header_bg.gif);
+	background-repeat: no-repeat;
+}
+
+#header .logo{
+     margin: 0;
+	 padding: 3px 10px;
+}
+
+/*--サイドバー
+------------------------------------------------------------------------------------*/
+#sidebar{
+	display: none;
+}
+
+/*--メインスペース
+------------------------------------------------------------------------------------*/
+#main{
+	float: right;
+	width: 100%;
+	margin: 10px 0 0 0;
+	padding: 0;
+	background-color:#FFFFFF;
+}
+
+.lead{
+	font-size: 110%;
+	line-height: 1.7;
+	color: #660000;
+}
+
+#headline{
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+/*--新着情報
+------------------------------------------------------------------------------------*/
+.whatsnew {
+    margin: 5px;
+	padding: 0;
+}
+
+.whatsnew h1 {
+    margin: 0;
+	padding: 0;
+	height: 20px;
+	border-bottom: #CCCCCC dashed 1px;
+}
+
+
+.whatsnew ul{
+    margin-left:15px;
+	padding: 0;
+	list-style:url(../images/common/list_mark.gif);
+}
+
+.whatsnew li{
+    margin-top:3px;
+	padding: 0;
+}
+
+/*--このページのトップへ
+------------------------------------------------------------------------------------*/
+#ptop {
+    display: none;
+}
+
+/*--フッター
+------------------------------------------------------------------------------------*/
+#footer{
+    clear:both;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	height: 33px;
+    background-image:url(/images/common/footer_bg.gif);
+	background-repeat: repeat-x;
+	
+}
+
+#footer img{
+	float: right;
+	margin: 12px 0 0 0;
+	padding: 0;
+}
+
+#footer p{
+    float: left;
+    margin: 0;
+	padding-top: 11px;
+	padding-left: 5px;
+	font-size: 90%;
+	}
+
+/*--プライバシーポリシー他
+------------------------------------------------------------------------------------*/
+#privacy {
+    clear: both;
+    margin-top: 10px;
+	margin-bottom: 3px;
+	padding: 0;
+}
+
+#privacy h1 {
+	margin: 0;
+	padding-top:12px;
+	font-size:large;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color:#FF6699;
+	height:40px;
+}
+
+#privacy h2 {
+    margin-top: 30px;
+	margin-bottom: 20px;
+	padding-left: 8px;
+	font-size: medium;
+	font-weight: bold;
+	color: #990000;
+	background-color : #FFFFFF;
+	border-bottom: #CC9999 dotted 1px;
+	border-left:  #CC9999 solid 3px;
+}
+
+#privacy h3 {
+	margin: 0;
+	padding-top:5px;
+	font-size:medium;
+	font-weight: bold;
+	color: #990000;
+	background-color:#FFFFFF;
+	height:50px;
+}
+
+#privacy p {
+    margin-bottom: 14px;
+}
+
+#privacy p.comm {
+    margin: 10px 0;
+	padding: 5px;
+	font-size: small;
+	font-weight: bold;
+	color: #990000;
+	background-color : #FFFFCC;
+	border: #990000 dotted 1px;
+}
+
+/* scaffold */
+
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+div.uploadStatus {
+  margin: 5px;
+}
+
+div.progressBar {
+  margin: 5px;
+}
+
+div.progressBar div.border {
+  background-color: #fff;
+  border: 1px solid grey;
+  width: 100%;
+}
+
+div.progressBar div.background {
+  background-color: #333;
+  height: 18px;
+  width: 0%;
+}
+
+
+/* forum */
+
+#forumnew-body{
+  margin: 15px;
+  padding: 10px;
+  background-color: #CCFF99;
+  border: 1px solid #CCCCCC;
+}
+
+.tab {
+  margin-left: 3em;
+}
+.postRoot {
+	border: 1px solid #CCCCCC; 
+}
+
+.postChild {
+/*	border: 1px solid #CCCCCC; */
+}
+
+.tab .postChild {
+	margin: 10px 0;
+  border-top: 1px dashed #CCCCCC;
+}
+
+
+.postHead {
+	background-color: #CCFF99;
+  padding: 7px;
+  font-size: 120%;
+}
+
+.postContent{
+  padding: 7px;
+  font-size: 110%;
+}
+
+.tab .postHead {
+	background-color: #ECF2DF;
+  padding: 3px;
+  font-size: 100%;
+} 
+
+.tab .postContent{
+  padding: 3px;
+  font-size: 100%;
+}
+
+.postTable {
+	background-color: #CCFF99;
+  padding: 7px;
+  font-size: 100%;
+} 
+
+.tab .postTable {
+  background-color: #CCFF99;
+  padding: 3px;
+  font-size: 100%;
+} 
+
+.unreadPostHead {
+  background-color: #C9DE70;  
+  padding: 7px;
+  font-size: 110%;
+}
+
+.tab .unreadPostHead {
+  background-color: #C9DE70;  
+  padding: 3px;
+  font-size: 100%;
+}
+
+/*--Misc
+------------------------------------------------------------------------------------*/
+.red{
+  color: red;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#sidebar .text_field{
+  width: 130px;
+}
+
+.poll{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #660000;
+  font-weight: bold;
+  width:90%;
+}
+
+
+.center{
+  text-align: center;
+}
+
+.confirm{
+  background-color: #FFFFCE;
+  border:#660000 solid 1px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+#login_left{
+  padding-left: 3px;
+} 
+
+#signup-form{
+  margin-bottom: 15px;
+}
+
+#notice{
+  margin: 0 0 7px 0;
+  border: 2px solid #FF8424;
+  padding: 5px;
+  background-color: #f0f0f0;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#error{
+  margin: 0 0 7px 0;
+  border: 2px solid #F84500;
+  padding: 5px;
+  background-color: #f0f0f0;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.contact-label{
+  font-size: 100%;
+  font-weight: bold; 
+}
+
+.pagination{
+  margin: 10px 0 10px 0;
+  font-size: 120%;
+  background-color: #DDDDDD;
+  padding: 3px 10px 3px 10px;
+}
+
+/*--Basic Bar Graph
+------------------------------------------------------------------------------------*/
+.graph { 
+	position: relative; /* IE is dumb */
+	width: 200px; 
+	border: 1px solid #FF9A00; 
+	padding: 2px; 
+	margin-bottom: .5em;					
+}
+.graph .bar { 
+	display: block;	
+	position: relative;
+	background: #FF9A00; 
+	text-align: center; 
+	color: #333; 
+	height: 1em; 
+	line-height: 1em;									
+}
+.graph .bar span { position: absolute; left: 1em; } /* This extra markup is necessary because IE doesn't want to follow the rules for overflow: visible */
+
+/*--Info
+------------------------------------------------------------------------------------*/
+.info-body{
+  margin: 15px 0 0 0;
+  padding: 0 15px;
+}
+
+.info-body h2{
+  margin: 15px 0 0 0;
+}
+
+p.smalldate{
+  margin: 0 0 10px 0;
+  color: #FF3333;
+}
+
+.info-attached-file{
+  margin: 10px 0;
+  padding:5px;
+  color: #666600;
+  border:#666600 dashed 1px;
+}
+
+.question-info{
+  border:#330000 dashed 1px;
+  padding:3px;
+  margin-bottom: 10px;
+}
+
+.question-title{
+  padding:3px;
+  margin-bottom: 10px;
+  background: #FFFFCC;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#article-body{
+  margin: 15px 0 0 0;
+  padding: 0 15px;
+}
+
+#article-body h2{
+  margin: 15px 0 0 0;
+}
+
