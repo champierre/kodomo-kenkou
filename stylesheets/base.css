@@ -71,7 +71,7 @@ a:hover {
 	margin: 0;
 	padding: 0;
 	height: 75px;
-	background-image:url(images/common/header_bg.gif);
+	background-image:url(../images/common/header_bg.gif);
 	background-repeat: no-repeat;
 }
 
@@ -99,7 +99,7 @@ a:hover {
 .kannri ul{
     margin-left:15px;
 	padding: 0;
-	list-style:url(images/common/kannri_list.gif);
+	list-style:url(../images/common/kannri_list.gif);
 }
 
 .kannri li{
@@ -146,7 +146,7 @@ a:hover {
 .whatsnew ul{
     margin-left:15px;
 	padding: 0;
-	list-style:url(images/common/list_mark.gif);
+	list-style:url(../images/common/list_mark.gif);
 }
 
 .whatsnew li{
@@ -162,7 +162,7 @@ a:hover {
 .bodylist ul{
     margin-left:15px;
 	padding: 0;
-	list-style:url(images/common/list_mark.gif);
+	list-style:url(../images/common/list_mark.gif);
 }
 
 .bodylist li{
@@ -203,7 +203,7 @@ ol.categories_menu li {
 	margin: 0;
 	padding: 0;
 	height: 100px;
-    background-image:url(images/common/footer_bg.gif);
+    background-image:url(../images/common/footer_bg.gif);
 	background-repeat: repeat-x;
 	text-align: center;
 	

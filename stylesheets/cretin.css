@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{
 	color: #330000;
 	font-size: 90%;
 	line-height: 1.5;
-	background-image: url(images/cretin/bg.gif);
+	background-image: url(../images/cretin/bg.gif);
 	background-repeat: repeat-y;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -69,7 +69,7 @@ a:hover {
 	margin: 0;
 	padding: 0;
 	height: 75px;
-	background-image:url(images/common/header_bg.gif);
+	background-image:url(../images/common/header_bg.gif);
 	background-repeat: no-repeat;
 	border-bottom:#FF99CC solid 4px;
 }
@@ -106,7 +106,7 @@ a:hover {
 .menu li{
     margin: 0;
 	padding-left: 17px;
-	background:url(images/cretin/menu_mark.gif) no-repeat 0 50%;
+	background:url(../images/cretin/menu_mark.gif) no-repeat 0 50%;
 }
 
 .login{
@@ -173,7 +173,7 @@ a:hover {
 .whatsnew ul{
     margin-left:15px;
 	padding: 0;
-	list-style:url(images/common/list_mark.gif);
+	list-style:url(../images/common/list_mark.gif);
 }
 
 .whatsnew li{
@@ -196,7 +196,7 @@ table.kokuban{
     margin: 0;
 	padding: 0;
 	width: 353px;
-	background-image:url(images/cretin/kokuban_bg.gif);
+	background-image:url(../images/cretin/kokuban_bg.gif);
 	background-repeat: repeat-y;
 }
 
@@ -239,7 +239,7 @@ table.yellow td{
 	margin: 0;
 	padding: 0;
 	height: 100px;
-    background-image:url(images/common/footer_bg.gif);
+    background-image:url(../images/common/footer_bg.gif);
 	background-repeat: repeat-x;
 	text-align: center;
 	
@@ -265,7 +265,7 @@ table.yellow td{
 	margin-bottom: 10px;
 	margin-left:10px;
 	padding: 0;
-	background:url(/cretin/lesson/img/ill_index_02.gif) no-repeat bottom right;
+	background:url(../img/ill_index_02.gif) no-repeat bottom right;
 }
 
 #main_index_jyoukyu{
@@ -274,7 +274,7 @@ table.yellow td{
 	margin-top: 20px;
 	margin-left:10px;
 	padding: 0;
-	background:url(/cretin/lesson/img/ill_index_03.gif) no-repeat bottom right;
+	background:url(../img/ill_index_03.gif) no-repeat bottom right;
 }
 
 .index {
@@ -297,7 +297,7 @@ table.yellow td{
 	font-size: medium;
 	font-weight: bold;
 	line-height: 160%;
-	background-image:url(/cretin/lesson/img/mark_heart.gif);
+	background-image:url(../img/mark_heart.gif);
 	background-repeat: no-repeat;
 	background-position: inherit;
 }
@@ -420,7 +420,7 @@ ol.alphastile{
     margin:0;
 	padding-right: 15px;
 	padding-left:10px;
-	background-image: url(/cretin/lesson/img/mark_ya_02.gif);
+	background-image: url(../img/mark_ya_02.gif);
 	background-position: right;
 	background-repeat: no-repeat;
 }
@@ -429,7 +429,7 @@ ol.alphastile{
     margin:0 0 0 5px;
 	padding-left: 15px;
 	padding-right: 10px;
-	background-image: url(/cretin/lesson/img/mark_ya_01.gif);
+	background-image: url(../img/mark_ya_01.gif);
 	background-position: left;
 	background-repeat: no-repeat;
 }
@@ -453,7 +453,7 @@ ol.alphastile{
     margin:0;
 	padding-right: 15px;
 	padding-left:10px;
-	background-image: url(/cretin/lesson/img/mark_ya_02.gif);
+	background-image: url(../img/mark_ya_02.gif);
 	background-position: right;
 	background-repeat: no-repeat;
 }
@@ -462,7 +462,7 @@ ol.alphastile{
     margin:0 0 0 5px;
 	padding-left: 15px;
 	padding-right: 10px;
-	background-image: url(/cretin/lesson/img/mark_ya_01.gif);
+	background-image: url(../img/mark_ya_01.gif);
 	background-position: left;
 	background-repeat: no-repeat;
 }
@@ -482,7 +482,7 @@ ol.alphastile{
 	color: #330000;
 	font-size: 90%;
 	line-height: 1.5;
-	background-image: url(images/cretin/bg.gif);
+	background-image: url(../images/cretin/bg.gif);
 	background-repeat: repeat-y;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -494,7 +494,7 @@ ol.alphastile{
 	margin: 0;
 	padding: 0;
 	height: 75px;
-	background-image:url(images/common/header_bg.gif);
+	background-image:url(../images/common/header_bg.gif);
 	background-repeat: no-repeat;
 	border-bottom:#FF99CC solid 4px;
 }
@@ -522,7 +522,7 @@ ol.alphastile{
 	margin: 0;
 	padding: 0;
 	height: 33px;
-    background-image:url(images/common/footer_bg.gif);
+    background-image:url(../images/common/footer_bg.gif);
 	background-repeat: repeat-x;	
 }
 }

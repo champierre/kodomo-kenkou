@@ -71,7 +71,7 @@ a:hover {
 	margin: 0;
 	padding: 0;
 	height: 75px;
-	background-image:url(images/common/header_bg.gif);
+	background-image:url(../images/common/header_bg.gif);
 	background-repeat: no-repeat;
 }
 
@@ -125,7 +125,7 @@ a:hover {
 .whatsnew ul{
     margin-left:15px;
 	padding: 0;
-	list-style:url(..images/common/list_mark.gif);
+	list-style:url(../images/common/list_mark.gif);
 }
 
 .whatsnew li{
@@ -147,7 +147,7 @@ a:hover {
 	margin: 0;
 	padding: 0;
 	height: 33px;
-    background-image:url(images/common/footer_bg.gif);
+    background-image:url(../images/common/footer_bg.gif);
 	background-repeat: repeat-x;
 	
 }
